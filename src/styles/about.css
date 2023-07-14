@@ -1,0 +1,27 @@
+.aboutSec{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    .aboutImgDiv{
+        min-width: 35vw;
+        max-width: 40vw;
+        max-height: 50vw;
+        overflow: hidden;box-shadow: 5px 5px 5px rgb(4, 4, 14);
+        .aboutImage{
+            height: 50vw;
+        }
+    }
+    .aboutContent{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10%;
+        .itemTitle{
+            margin: 5%;
+        }
+    }
+    
+}
+

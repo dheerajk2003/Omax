@@ -1,0 +1,44 @@
+[
+    {
+        "key" : 1,
+        "itemName" : "SHIRT",
+        "type" : "Formal & Casual",
+        "cost" : "Rs-399",
+        "image" : "./shirt.jpg"
+    },
+    {
+        "key" : 2,
+        "itemName" : "TROUSER",
+        "type" : "Formal",
+        "cost" : "Rs-699",
+        "image" : "./trousers.jpg"
+    },
+    {
+        "key" : 3,
+        "itemName" : "SUIT",
+        "type" : "Formal",
+        "cost" : "Rs-1999",
+        "image" : "./suit.jpg"
+    },
+    {
+        "key" : 4,
+        "itemName" : "JACKET",
+        "type" : "Casual",
+        "cost" : "Rs-1499",
+        "image" : "./jacket.jpg"
+    },
+    {
+        "key" : 5,
+        "itemName" : "KURTA PAJAMA",
+        "type" : "Traditional",
+        "cost" : "Rs-999",
+        "image" : "./kurtapajama.jpg"
+    },
+    {
+        "key" : 6,
+        "itemName" : "AND MORE",
+        "type" : "",
+        "cost" : "",
+        "image" : "./more.jpg"
+    }
+]
