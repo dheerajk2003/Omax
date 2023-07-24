@@ -4,7 +4,10 @@ export function Home() {
         <>
             <section className="homeSec">
                 <div className="navbar globalFlex" >
-                    <img src="" alt="logo" />
+                    <div className='globalFlex'>
+                        <img src="/suitLogo.png" alt="logo" className='Logo'/>
+                        <h3>OMEX</h3>
+                    </div>
                     <div className='linkNbtn globalFlex'>
                         <ul className="navList globalFlex">
                             <li className="navListItem"><a href="#services" >SERVICES</a></li>

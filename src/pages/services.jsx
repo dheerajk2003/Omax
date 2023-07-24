@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useRef } from 'react';
 
 import '../styles/services.css';
-import item from '../../public/item.json'
+import item from '/src/assets/item.json';
 // const itemJson = item;
 export function Services() {
     const [Clothes, setClothes] = useState([]);
@@ -40,10 +40,10 @@ export function Services() {
                 <Mappit />
             </div>
             <button className='prevBtn' onClick={() => next(-350)}>
-                <img src='../../public/previous.png'></img>
+                <img src='/previous.png'></img>
             </button>
             <button className='nextBtn' onClick={() => next(350)}>
-            <img src='../../public/previous.png'></img>
+            <img src='/previous.png'></img>
             </button>
         </section>
     )

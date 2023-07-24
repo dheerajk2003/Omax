@@ -2,13 +2,22 @@
     display: flex;
     align-items: center;
     justify-content: start;
+    height: 100vh;
+    padding: 1rem;
+    
+    
+}
+
+@media(max-width:2500px){
+    
     .aboutImgDiv{
-        min-width: 35vw;
-        max-width: 40vw;
-        max-height: 50vw;
-        overflow: hidden;box-shadow: 5px 5px 5px rgb(4, 4, 14);
+        width: 150%;
+        height: 100%;
+        /* margin: 0rem 2rem; */
+        overflow: hidden;
+        box-shadow: 5px 5px 5px rgb(4, 4, 14);
         .aboutImage{
-            height: 50vw;
+            height: 100%;
         }
     }
     .aboutContent{
@@ -22,6 +31,32 @@
             margin: 5%;
         }
     }
-    
 }
 
+@media(max-width:750px){
+    .aboutSec{
+        flex-direction: column;   
+    }
+    .aboutImgDiv{
+        width: 90vw;
+        height: 40%;
+        /* margin: 0rem 2rem; */
+        overflow: hidden;
+        box-shadow: 5px 5px 5px rgb(4, 4, 14);
+        .aboutImage{
+            height: 100%;
+        }
+    }
+
+    .aboutContent{
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10%;
+        .itemTitle{
+            margin: 5%;
+        }
+    }
+}

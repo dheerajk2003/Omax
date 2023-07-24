@@ -39,3 +39,18 @@
     width: 100%;
     transform: translateY(-50px);
 }
+@media (max-width: 2000px) {
+    .howContent{
+        height: 100%;
+    }
+}
+@media(max-width: 750px){
+    .howSec{
+        flex-direction: column;
+    }
+    .howContent, .imgDiv{
+        width: 100%;
+        height: 50%;
+
+    }
+}

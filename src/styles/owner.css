@@ -2,7 +2,7 @@
     width: 100%;
     height: 20%;
     display: flex;
-    flex-direction: row;
+    
     align-items: center;
     justify-content: space-around;
     padding-bottom: 10px;
@@ -15,5 +15,15 @@
     .numLink{
         text-decoration: none;
         color: white;
+    }
+}
+@media (max-width:2500px) {
+    .aboutOwner{
+        flex-direction: row;
+    }
+}
+@media (max-width:750px) {
+    .aboutOwner{
+        flex-direction: column;
     }
 }

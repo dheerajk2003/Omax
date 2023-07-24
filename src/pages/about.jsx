@@ -3,7 +3,7 @@ import '../styles/about.css';
 export function About()
 {
     return (
-        <section className="howSec aboutSec" id='AboutSec'>
+        <section className="aboutSec" id='AboutSec'>
             <div className="aboutImgDiv">
                 <img className="aboutImage" src="../../store.jpg" />
             </div>
